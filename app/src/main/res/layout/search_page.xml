@@ -1,0 +1,52 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		search_page
+	 *	@date 		Wednesday 31st of May 2023 11:48:49 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/search_page" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__search_page"
+				android:background="@drawable/_bg__search_page_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="524dp"
+				android:layout_height="987dp" />
+
+			<ImageView android:id="@+id/main"
+				android:src="@drawable/main"
+				android:contentDescription="main"
+				 android:layout_marginStart="5dp"
+				android:layout_marginTop="5dp"
+				android:layout_width="445dp"
+				android:layout_height="900dp" />
+
+			<ImageView android:id="@+id/iphone_13_mockup_label"
+				android:src="@drawable/iphone_13_mockup_label"
+				android:contentDescription="iphone_13_mockup_label"
+				 android:layout_marginStart="27dp"
+				android:layout_marginTop="24dp"
+				android:layout_width="398.5dp"
+				android:layout_height="859dp" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
